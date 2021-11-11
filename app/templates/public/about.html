@@ -1,0 +1,45 @@
+{% extends "public/templates/base_template.html" %}
+
+{% block title %}About{% endblock %}
+
+{% block main %}
+
+<div class="container mt-5 pt-5 mb-5 pb-5">
+  <div class="info-section single-section">
+    <div class="row align-items-center">
+      <!-- Picture part-->
+      <div class="col-12 col-lg-5 info-img"><img class="img-fluid img-thumbnail" src="{{ url_for('static',filename='images/info-img.png') }}" alt="About Picture"></div>
+      <!-- Content part-->
+      <div class="col-12 col-lg-7 info-content">
+        <div class="content-block">
+          <h2 class="content-subtitle" style="color:#F53163"></h2>
+          <h6 class="content-title" style="color:#F53163"></h6>
+          <div class="content-description">
+            <p></p>
+          </div>
+          <address class="content-info">
+            <div class="row">
+              <div class="col-12 col-md-6 single-info"><span><b>Name:</b></span>
+                <p>E-commerce Visual Search Engine</p>
+              </div>
+              <div class="col-12 col-md-6 single-info"><span><b></b></span>
+                <p><a href="mailto:shastrijanushi@gmail.com"></a></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-6 single-info"><span><b>Age:</b></span>
+                <p>23</p>
+              </div>
+              <div class="col-12 col-md-6 single-info"><span><b>From:</b></span>
+                <p></p>
+              </div>
+            </div>
+          </address>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+{% endblock %}
