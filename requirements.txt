@@ -19,7 +19,7 @@ Keras-Applications==1.0.6
 Keras-Preprocessing==1.0.5
 matplotlib==3.0.2
 numpy==1.15.4
-opencv-python==3.4.4.19
+opencv-python==4.5.4.58
 pandas==0.23.4
 Pillow==5.3.0
 protobuf==3.6.1
